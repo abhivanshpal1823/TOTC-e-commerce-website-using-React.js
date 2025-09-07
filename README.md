@@ -21,7 +21,48 @@ A modern, fully responsive **E-commerce website** built with **React**, **Redux 
 - **Frontend:** React.js  
 - **State Management:** Redux Toolkit  
 - **Styling:** Tailwind CSS  
-- **Routing:** React Router  
+- **Routing:** React Router
+
+- TOTC-e-commerce-website/
+│
+├── public/
+│   ├── index.html           # Main HTML file
+│   └── favicon.ico
+│
+├── src/
+│   ├── assets/              # Images, icons, fonts
+│   │   ├── images/
+│   │   └── icons/
+│   │
+│   ├── components/          # Reusable UI components
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── ProductCard.jsx
+│   │   └── CartItem.jsx
+│   │
+│   ├── pages/               # Individual pages
+│   │   ├── Home.jsx
+│   │   ├── Products.jsx
+│   │   ├── Cart.jsx
+│   │   └── Checkout.jsx
+│   │
+│   ├── redux/               # Redux Toolkit setup
+│   │   ├── store.js
+│   │   └── slices/
+│   │       └── cartSlice.js
+│   │
+│   ├── routes/              # Routing setup
+│   │   └── AppRoutes.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.js
+│   └── index.css            # Tailwind CSS imports
+│
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+
 
 ---
 

@@ -122,14 +122,14 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-sm:gap-18 gap-8 mt-12">
           {cloudSoftwareCartsData.map((data, index) => (
             <div
               key={index}
               className="relative bg-white shadow-xl rounded-lg text-center p-6"
             >
               <img
-                className="absolute -top-10 left-1/2 transform -translate-x-1/2 w-[80px] sm:w-[100px]"
+                className="absolute -top-10 left-1/2 transform  -translate-x-1/2 w-[80px] sm:w-[100px]"
                 src={data.carts_icon}
                 alt="file_img"
               />
@@ -299,7 +299,6 @@ const Home = () => {
 <div className="mx-auto page_container flex justify-center">
   <button className="border-2 border-gray-300 py-2 px-6 rounded-[2em] "> See more features </button>
 </div>
-
 
 
     </div>

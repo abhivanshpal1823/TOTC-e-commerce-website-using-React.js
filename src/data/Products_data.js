@@ -13,6 +13,7 @@ import marketingArticlesImgFirst from "../assets/images/marketingArticlesImgFirs
 import marketingArticlesImgSecond from "../assets/images/marketingArticlesImgSecond.png";
 import marketingArticlesImgThird from "../assets/images/marketingArticlesImgThird.png";
 import marketingArticlesImgFourth from "../assets/images/marketingArticlesImgFourth.png";
+import BulkinSimonsImg from "../assets/images/BulkinSimonsImg.png";
 import { defaultMarketingArticles } from "./DefaultData";
 
 
@@ -127,6 +128,7 @@ export const RelatedBlogData = [
 
 export const MarketingArticles =[
     {
+        id:1,
         image:marketingArticlesImgFirst,
         title:"AWS Certified solutions Architect",
         description:"Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor",
@@ -135,21 +137,109 @@ export const MarketingArticles =[
      
     },
     {
+        id:2,
         image:marketingArticlesImgSecond ,
         title:"AWS Certified solutions Architect",
         description:"Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor",
         ...defaultMarketingArticles,
     },
     {
+        id:3,
         image:marketingArticlesImgThird,
         title:"AWS Certified solutions Architect",
         description:"Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor",
         ...defaultMarketingArticles,
     },
     {
+        id:4,
         image:marketingArticlesImgFourth,
         title:"AWS Certified solutions Architect",
         description:"Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor",
        ...defaultMarketingArticles,
     },
 ];
+
+
+export const AffordablePricingCartsData = [
+    {
+        id:1,
+        title:"Like a pussy",
+        price:"Free",
+        period:" / FOREVER",
+        features :[
+            {title:"Components-driven system",icon:"fa-solid fa-check"},
+            {title:"Sales-boosting landing pages",icon:"fa-solid fa-check"},
+            {title:"Awesome Feather icons pack", icon:"fa-solid fa-check"},
+        ],
+        buttonText:"Try for free"
+    },
+    {
+        id:2,
+        title:"👤 Individual",
+        price:"$24",
+        period:" / MONTH",
+        features :[
+            {title:"Components-driven system",icon:"fa-solid fa-check"},
+            {title:"Sales-boosting landing pages",icon:"fa-solid fa-check"},
+            {title:"Awesome Feather icons pack", icon:"fa-solid fa-check"},
+            {title:"Themed into 3 different styles", icon:"fa-solid fa-check"},
+            {title:"Will help to learn Figma", icon:"fa-solid fa-check"},
+        ],
+        buttonText:"Try for free02"
+    },
+    {
+        id:3,
+        title:"👥 Corporate",
+        price:"$12",
+        period:" / EDITOR",
+        features :[
+            {title:"Components-driven system",icon:"fa-solid fa-check"},
+            {title:"Sales-boosting landing pages",icon:"fa-solid fa-check"},
+            {title:"Awesome Feather icons pack", icon:"fa-solid fa-check"},
+            {title:"Themed into 3 different styles", icon:"fa-solid fa-check"},
+        ],
+        buttonText:"Try for free03"
+    },
+]
+
+export const StudentsCartData = [
+    {
+        image:BulkinSimonsImg ,
+        name:"Bulkin Simons",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod"
+    },
+    {
+        image:BulkinSimonsImg ,
+        name:"Bulkin Simons",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod"
+    },
+    {
+        image:BulkinSimonsImg ,
+        name:"Bulkin Simons",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod"
+    },
+    {
+        image:BulkinSimonsImg ,
+        name:"Bulkin Simons",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod"
+    },
+]
+
+
+
+
+//  <div className="flex w-[70%] mx-auto">
+                    
+//                     <div className="w-[calc(100%/2)]">
+//                         <h2 className="text-[1.125rem] font-bold text-[#49BBBD]"> Like a pussy</h2>
+//                         <p className="text-[4em] font-semibold">Free <span className="text-[1.3rem] uppercase"> / forever</span></p>
+//                         <div className="flex items-center gap-8">
+//                             <div className="bg-gray-300 rounded-full px-2 py-1.5">
+//                                 <i className="fa-solid fa-check"></i>
+//                             </div>
+//                             <p className="text-[1.125rem] text-gray-700" >Components-driven system</p>
+//                         </div>
+//                     </div>
+//                     <div className="w-[calc(100%/2)]"> 2 </div>
+//                     <div className="w-[calc(100%/2)]"> 3 </div>
+//                 </div>

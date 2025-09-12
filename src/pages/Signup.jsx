@@ -1,5 +1,7 @@
 import { useState } from "react";
 import SignupImage from "../assets/images/SignupImage.png";
+import { Link } from "react-router";
+
 
 const Signup = () => {
 
@@ -12,7 +14,6 @@ const Signup = () => {
   const validateForm = () => {
     let isValid = true;
     const newError = {}
-
     if (!name.trim()) {
       newError.name = "name is required !";
       isValid = false;
@@ -53,7 +54,7 @@ const Signup = () => {
           <div className="w-[85%] mx-auto">
             <h2 className="text-center text-[1.5em] max-xl:text-[1em] "> Welcome to lorem...!</h2>
             <div className="flex gap-8 max-xl:gap-5 max-xl:py-1.5 max-xl:px-2 max-lg:gap-2 max-lg:py-1 max-lg:px-2 max-lg:mt-2 bg-[#49BBBD] w-fit px-4 py-2 mt-6 max-xl:mt-4 rounded-4xl mx-auto">
-              <button className="hover:bg-sky-600 px-12 max-xl:px-8 rounded-2xl text-white">Login</button>
+              <Link to="/login"><button className="hover:bg-sky-600 px-12 max-xl:px-8 rounded-2xl text-white">Login</button></Link>
               <button className="hover:bg-sky-600 px-10 max-xl:px-8 rounded-2xl py-2 text-white">Register </button>
             </div>
             <div className=" w-[80%] mx-auto ">
